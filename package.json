@@ -1,0 +1,11 @@
+{
+  "name": "qa-automation-hometasks",
+  "version": "1.0.0",
+  "description": "Home tasks for QA Automation course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ваше Ім'я та Прізвище",
+  "license": "ISC"
+}
