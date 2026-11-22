@@ -1,11 +1,22 @@
 {
   "name": "qa-automation-hometasks",
   "version": "1.0.0",
-  "description": "Home tasks for QA Automation course",
+  "description": "QA Automation course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha && open mochawesome-report/mochawesome.html",
+    "coverage": "c8 mocha && open coverage/index.html",
+    "lint": "eslint . --fix"
   },
-  "author": "Ваше Ім'я та Прізвище",
-  "license": "ISC"
+  "author": "Vasyl Tysiak",
+  "license": "ISC",
+  "devDependencies": {
+    "c8": "^12.0.0",
+    "chai": "^4.5.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "mocha": "^12.0.3",
+    "mochawesome": "^8.1.1"
+  }
 }
